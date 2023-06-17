@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="MrDamianTheme.8bbed23a-6406-4446-86e9-96f6bde4e0a6" Version="1.0.1.4" Language="en-US" Publisher="Mr Damian" />
+        <DisplayName>MrDamianTheme</DisplayName>
+        <Description xml:space="preserve">MrDamian theme for Microsoft Visual Studio Community 2022 </Description>
+        <MoreInfo>https://www.it-tips.ru</MoreInfo>
+        <Icon>Properties\default_icon_128.png</Icon>
+        <PreviewImage>Properties\Screenshot_02.png</PreviewImage>
+        <Tags>Theme; Themes;MrDamian Theme;</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="Properties\MrDamianTheme.pkgdef" />
+    </Assets>
+</PackageManifest>
