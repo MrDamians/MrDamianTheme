@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="MrDamianTheme.8bbed23a-6406-4446-86e9-96f6bde4e0a6" Version="1.0.1.8" Language="en-US" Publisher="MrDamian Theme" />
+        <Identity Id="MrDamianTheme.8bbed23a-6406-4446-86e9-96f6bde4e0a6" Version="1.0.1.9" Language="en-US" Publisher="MrDamian Theme" />
         <DisplayName>MrDamianTheme</DisplayName>
         <Description xml:space="preserve">Theme for Microsoft Visual Studio Community 2022 based on classic GitHub Dark Dimmed by GitHub </Description>
         <MoreInfo>https://www.it-tips.ru</MoreInfo>
