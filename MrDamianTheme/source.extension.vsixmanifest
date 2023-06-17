@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="MrDamianTheme.8bbed23a-6406-4446-86e9-96f6bde4e0a6" Version="1.0.1.7" Language="en-US" Publisher="MrDamian Theme" />
+        <Identity Id="MrDamianTheme.8bbed23a-6406-4446-86e9-96f6bde4e0a6" Version="1.0.1.8" Language="en-US" Publisher="MrDamian Theme" />
         <DisplayName>MrDamianTheme</DisplayName>
-        <Description xml:space="preserve">MrDamian theme for Microsoft Visual Studio Community 2022 </Description>
+        <Description xml:space="preserve">Theme for Microsoft Visual Studio Community 2022 based on classic GitHub Dark Dimmed by GitHub </Description>
         <MoreInfo>https://www.it-tips.ru</MoreInfo>
-        <Icon>Properties\default_icon_128.png</Icon>
+        <ReleaseNotes>https://github.com/MrDamians/MrDamianTheme</ReleaseNotes>
+        <Icon>Properties\github_dark_dimmed.png</Icon>
         <PreviewImage>Properties\Screenshot_02.png</PreviewImage>
         <Tags>Theme; Themes;MrDamian Theme;</Tags>
+        <Preview>true</Preview>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">

@@ -63,7 +63,7 @@
     <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="17.6.2164" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Properties\default_icon_128.png">
+    <Content Include="Properties\github_dark_dimmed.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
